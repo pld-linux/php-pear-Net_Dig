@@ -3,23 +3,25 @@
 %define         _subclass       Dig
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_class}_%{_subclass} - interface to the dig command
-Summary(pl):	%{_class}_%{_subclass} - interfejs do komendy dig
+Summary(pl):	%{_class}_%{_subclass} - interfejs do polecenia dig
 Name:		php-pear-%{_pearname}
 Version:	0.1
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-BuildRequires:	rpm-php-pearprov
 URL:		http://pear.php.net/
+BuildRequires:	rpm-php-pearprov
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 The PEAR::Net_Dig class should be a nice, friendly OO interface to the
-dig command
+dig command.
 
 %description -l pl
+Klasa PEAR::Net_Dig to przyjemny i przyjazny, obiektowo zorientowany
+interfejs do polecenia dig.
 
 %prep
 %setup -q -c
