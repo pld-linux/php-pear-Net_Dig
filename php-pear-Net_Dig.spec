@@ -1,11 +1,11 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          Net
-%define         _subclass       Dig
+%define		_class		Net
+%define		_subclass	Dig
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
 
-Summary:	%{_class}_%{_subclass} - interface to the dig command
-Summary(pl):	%{_class}_%{_subclass} - interfejs do polecenia dig
+Summary:	%{_pearname} - interface to the dig command
+Summary(pl):	%{_pearname} - interfejs do polecenia dig
 Name:		php-pear-%{_pearname}
 Version:	0.1
 Release:	4
