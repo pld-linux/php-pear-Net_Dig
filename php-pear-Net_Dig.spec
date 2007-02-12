@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - interface to the dig command
-Summary(pl):	%{_pearname} - interfejs do polecenia dig
+Summary(pl.UTF-8):   %{_pearname} - interfejs do polecenia dig
 Name:		php-pear-%{_pearname}
 Version:	0.1
 Release:	7
@@ -27,7 +27,7 @@ dig command.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
+%description -l pl.UTF-8
 Klasa PEAR::Net_Dig to przyjemny i przyjazny, obiektowo zorientowany
 interfejs do polecenia dig.
 
