@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - interface to the dig command
-Summary(pl.UTF-8):   %{_pearname} - interfejs do polecenia dig
+Summary(pl.UTF-8):	%{_pearname} - interfejs do polecenia dig
 Name:		php-pear-%{_pearname}
 Version:	0.1
 Release:	7
