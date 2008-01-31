@@ -8,7 +8,7 @@ Summary:	%{_pearname} - interface to the dig command
 Summary(pl.UTF-8):	%{_pearname} - interfejs do polecenia dig
 Name:		php-pear-%{_pearname}
 Version:	0.1
-Release:	7
+Release:	8
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
